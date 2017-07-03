@@ -1,0 +1,9 @@
+// For Windows users to find the "cmd" path first open a command prompt, move to the c:root with
+// "cd c:\" (no quotes), and just in case you are not already on the c drive type "c:" (no quotes), and then
+//  type "where python.exe" (no quotes). These notes can be removed in your file.
+
+{
+	"cmd": ["C:\\Windows\\Python\\Python36\\python.exe", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "quiet": true
+}
